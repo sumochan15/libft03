@@ -37,7 +37,7 @@ ft_putnbr_fd
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
-AR = ar rcs
+AR = ar -rcs
 RM = rm -f
 SRCS = $(addsuffix .c, $(FILES))
 OBJS = $(addsuffix .o, $(FILES))
